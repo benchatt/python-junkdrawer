@@ -1,0 +1,8 @@
+create false data:
+  for TEMP, DEWP, STP, VISIB, WDSP, MXSPD, MAX, MIN, PRCP, SNDP, FRSHTT:
+    get range for all, get season for max and min of each
+    sine up
+    get history (_30, _180) for each of these
+
+for every day:
+  update level by delta
